@@ -9,9 +9,9 @@ body{
 }
  /* This is background without image */
 
- /*
+
 .bg-image{
- background-image: url("Images/yog.jpg");
+ background-image: url("Images/bg.jpg");
 
   height:400px;
 
@@ -20,7 +20,7 @@ body{
   background-size: cover;
   position: relative;
 
-  } */
+  } 
   /* This is background with image */
 
 
@@ -30,15 +30,17 @@ h1{
      text-align: center;
   font-family: 'Arial',serif;
   font-size: 50px;
-    color: #342218; 
+    color: #154c79; /*color: #342218; */
 margin-top: 0px;
+padding-top: 50px;
      
 }
 
    /* banner web title */
 
 
-h2{color: #9d6748;
+h2 {
+  color: 8B320C; /*color: #9d6748; color before*/
   display: block;
     margin: 0px auto;
      text-align: center;
@@ -156,6 +158,16 @@ color: #8B320C;
 /* navigation selected active item on menu */
 
 
+.navbar a:hover {
+  color: red !important; /* Add a hover color */
+background: transparent !important;
+}
+
+
+
+/*navbar menu a big screen hover color*/
+
+
 
 .dropdown-menu a{
 color: white !important;
@@ -190,12 +202,6 @@ background: transparent !important;
 
 }
 
-/*Dropdown menu a big screen hover color*/
-
-.navbar a:hover {
-  color: red !important; /* Add a hover color */
-background: transparent !important;
-}
 
 /*navbar menu a big screen hover color*/
 
@@ -208,6 +214,27 @@ background: transparent !important;
 }
 
 /*Dropdown menu a small screen hover color*/
+
+
+.navbar-toggle{
+background: white !important;
+
+}
+
+/*Navbar collapse Icon Sandwich menu color*/
+
+.container{
+
+text-align: center;
+ 
+font-family: 'Arial',serif;
+font-size: 25px;
+ margin-bottom: 135px;   /*this is for dropdown bottom space*/
+
+}
+/*this is for dropdown menu*/
+
+
 
 
 .col-xs-6 {
@@ -317,16 +344,6 @@ font-family: 'Arial',serif;
 }
 
 
-.container{
-
-text-align: center;
- 
-font-family: 'Arial',serif;
-font-size: 25px;
- margin-bottom: 135px;   /*this is for dropdown bottom space*/
-
-}
-/*this is for dropdown menu*/
 
 
 
