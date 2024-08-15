@@ -494,6 +494,16 @@ list-style-type: none;
 }
 /* icon bar at the bottom  */
 
+
+@media (max-width: 768px) { 
+.icon-bar a{
+width: 12% !important; /* Equal width (5 icons with 20% width each = 100%) */
+
+}}
+/*icon-bar a on small screen*/
+
+
+
 .icon-bar a {
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
@@ -515,6 +525,7 @@ list-style-type: none;
 
  /*.active {
   background-color: white; /* Add an active/current color */
+
 
 
 .footer{
